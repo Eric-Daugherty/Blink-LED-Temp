@@ -5,9 +5,9 @@ Clone Repo:
 ```
 sudo git clone https://github.com/Eric-Daugherty/Blink-LED-TEMP.git
 ```
-Have g++ installed:
+## Have g++ installed:
 ```which g++```
-Should return:
+ ## Should return:
 ```/usr/bin/g++```
 If it says that it doesn't exist then execute the following:
 ```sudo apt-get install mingw-w64 ```
