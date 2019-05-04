@@ -1,7 +1,5 @@
 <html>
 <body style="background-color: powderblue;">
-        <navbar></navbar>
-        <jumbotron></jumbotron>
         <div class='container'>
         <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <fieldset class="form-group">
