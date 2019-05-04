@@ -109,8 +109,9 @@ int main(int argc, char *argv[]){
 Tempature::Tempature(string inputFile){
 	ifstream infile;
 
-	infile.open(inputFile); //Reading temp sensor in
-
+	infile.open(inputFile); // Opening File
+	
+	//Reading temp sensor in
 	while(infile >> info){ 
 		getinfo.push_back(info); // Add elements to vector
 		count++; // Keep count
